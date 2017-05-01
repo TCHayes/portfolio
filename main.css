@@ -3,3 +3,141 @@ Darker midnight blue #103359
 midnight blue #17406b
 snow #f9f9f9
 */
+
+
+/*
+Vanguard Colors
+#efece3 linen
+#96151d red nav
+#8d4900 text brown
+#003c69 midnight blue
+#5c8033 dark olive green
+#555555 dim gray
+#666666 dim gray
+*/
+
+body {
+  background: #ffffff;
+  color: #383838;
+  margin: 0;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 40px;
+  background-color: #96151d;
+  color: white;
+}
+
+header {
+  margin-top: 40px;
+  padding: 5px 0px;
+  text-align: center;
+  background-color: #efece3;
+  color: #96151d;
+}
+
+header h3 {
+  margin: 5px 0px;
+}
+
+header h1 {
+  margin: 5px 0px;
+}
+
+#nav-name {
+  position: fixed;
+  top: 5;
+  left: 0;
+  z-index: 9999;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+li {
+  list-style: none;
+  flex-direction: row;
+  padding: 0px 10px;
+  color: inherit;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:visited {
+  color: inherit;
+}
+
+nav li a:hover {
+  padding: 10px 5px;
+  background-color: white;
+  color: black;
+}
+
+#contact li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.section-container {
+  padding-left: 10px;
+}
+
+.section-title {
+  color: #773e00;
+}
+
+#about {
+  padding: 20px 20px;
+  background-color: #003c69;
+  color: white;
+}
+
+#about-text {
+  margin: 0 auto;
+  padding: 20px 20px;
+  font-size: 18px;
+}
+
+#projects {
+
+}
+
+#contact {
+  border-top: 1px solid #666666;
+  margin-top: 40px;
+  background-color: #e5e5e5;
+}
+
+#contact ul {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+#header-name {
+  display: none;
+}
+
+
+/*Settings for mobile*/
+@media only screen and (max-width: 550px) {
+  #nav-name {
+    display: none;
+  }
+
+  #header-name {
+    display: block;
+  }
+
+}
