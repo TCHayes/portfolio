@@ -68,6 +68,10 @@ nav ul {
   margin: 0px;
 }
 
+nav li {
+  color: white;
+}
+
 li {
   list-style: none;
   flex-direction: row;
@@ -86,13 +90,17 @@ li a:visited {
 nav li a:hover {
   padding: 12px 0px;
   background-color: white;
-  color: black;
+  color: #96151d;
 }
 
 #nav-name a:hover {
   padding: 5px 0px;
   background-color: white;
   color: #96151d;
+}
+
+#contact li a {
+  color: #383838;
 }
 
 #contact li a:hover {
