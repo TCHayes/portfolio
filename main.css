@@ -17,7 +17,7 @@ Vanguard Colors
 */
 
 body {
-  background: #ffffff;
+  background: #fafafa;
   color: #383838;
   margin: 0;
 }
@@ -38,22 +38,27 @@ header {
   padding: 5px 0px;
   text-align: center;
   background-color: #efece3;
-  color: #96151d;
+  color: #773e00;
+}
+
+#header-name {
+  margin: 0;
 }
 
 header h3 {
   margin: 5px 0px;
 }
 
-header h1 {
+header h2 {
   margin: 5px 0px;
 }
 
 #nav-name {
   position: fixed;
-  top: 5;
+  top: 0;
   left: 0;
   z-index: 9999;
+  font-size: 30px;
 }
 
 nav ul {
@@ -79,9 +84,15 @@ li a:visited {
 }
 
 nav li a:hover {
-  padding: 10px 5px;
+  padding: 12px 0px;
   background-color: white;
   color: black;
+}
+
+#nav-name a:hover {
+  padding: 5px 0px;
+  background-color: white;
+  color: #96151d;
 }
 
 #contact li a:hover {
@@ -107,16 +118,13 @@ nav li a:hover {
   margin: 0 auto;
   padding: 20px 20px;
   font-size: 18px;
-}
-
-#projects {
-
+  font-family: 'Merriweather', serif;
 }
 
 #contact {
-  border-top: 1px solid #666666;
+  border-top: 1px solid #efece3;
   margin-top: 40px;
-  background-color: #e5e5e5;
+  background-color: #efece3;
 }
 
 #contact ul {
