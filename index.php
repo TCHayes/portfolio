@@ -32,7 +32,7 @@
         <!--could have a text carousel on "a passion for" which changes to "a love of",
         "a zeal for", "a dedication to", "a zest for"...  -->
         <p>Hi, I'm Terry. I'm a full stack web developer with a passion for personal finance,
-          index investing, low costs, and taking the long view.</p>
+          index investing, and taking the long view.</p>
         <p>I code predominantly with a MERN stack. I'm experienced with JavaScript (ES5, ES6, JSX), React (and Redux), jQuery,
         Node (and Express), and mobile-first responsive development with HTML5
         and CSS3.</p>
