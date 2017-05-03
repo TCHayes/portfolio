@@ -618,7 +618,7 @@ nav li a:hover {
 #about {
   padding: 20px 20px;
   min-height: 560px;
-  background-color: #33b3e5;
+  background-color: #103359;
   color: white;
 }
 
@@ -663,10 +663,6 @@ h2.section-title {
   width: 50%;
 }
 
-/*#periodic-homepage-img {
-  max-width: 25%;
-  float: right;
-}*/
 .img-right {
   padding-left: 10px;
   max-width: 45%;
@@ -674,15 +670,9 @@ h2.section-title {
 }
 
 .terry-photo {
-  /*min-height: 370px;*/
   min-width: 250px;
   max-height: 520px;
 }
-
-/*#periodic-app-img {
-  max-width: 25%;
-  float: right;
-}*/
 
 /*Settings for mobile*/
 @media only screen and (max-width: 550px) {

@@ -51,7 +51,8 @@
     <div id='projects' class='section-container'>
       <h2 class='section-title'>PROJECTS</h2>
       <div class='project' id='project1'>
-        <img class='img-right' src="./images/screenshots/bestcard-cats.png" alt="BestCard App">
+        <img class='img-right' src="./images/screenshots/bestcard-cats-small.png" alt="BestCard Categories Page">
+        <img class='img-right' src="./images/screenshots/bestcard-result-small.png" alt="BestCard Result Page">
         <div class='project-text'>
           <h2>BestCard</h2>
           <h4>Always know which of your credit cards offers the best rewards for each purchase</h4>
@@ -71,7 +72,7 @@
       </div>
 
       <div class='project' id='project2'>
-        <img class='img-right' src="./images/screenshots/periodic-app.png" alt="Periodic Repetition App">
+        <img class='img-right' src="./images/screenshots/periodic-app-small.png" alt="Periodic Repetition App">
         <div class='project-text'>
           <h2>Periodic Repetition</h2>
           <h4>Learn the periodic table of elements using a spaced repetition algorithm</h4>
