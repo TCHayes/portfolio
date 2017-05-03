@@ -37,8 +37,9 @@
         <p>
           In 2017, I'm turning 30, getting married, and leaving my career in public
           relations to pursue software development professionally. By the end of
-          the year we'll likely be in a different city as we start our new lives
-          together, and I'm excited for all the changes on the horizon.
+          the year, my fiancée Emily, our two year old Boston Terrier Murray,
+          and I will likely be in a new city as we start our new lives
+          together, and I'm excited for all the new challenges ahead.
         </p>
         <!-- <p>I code predominantly with a MERN stack. I'm experienced with JavaScript (ES5, ES6, JSX), React (and Redux), jQuery,
         Node (and Express), and mobile-first responsive development with HTML5
@@ -51,8 +52,10 @@
     <div id='projects' class='section-container'>
       <h2 class='section-title'>PROJECTS</h2>
       <div class='project' id='project1'>
-        <img class='img-right' src="./images/screenshots/bestcard-cats-small.png" alt="BestCard Categories Page">
-        <img class='img-right' src="./images/screenshots/bestcard-result-small.png" alt="BestCard Result Page">
+        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right' src="./images/screenshots/bestcard-cats-small.png"
+                                alt="BestCard Categories Page"></a>
+        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right' src="./images/screenshots/bestcard-result-small.png"
+                                alt="BestCard Result Page"></a>
         <div class='project-text'>
           <h2>BestCard</h2>
           <h4>Always know which of your credit cards offers the best rewards for each purchase</h4>
@@ -66,13 +69,15 @@
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
             on the back end, with a MongoDB database.
           </p>
-          <a href="http://enigmatic-oasis-30651.herokuapp.com/">Demo the app here</a><br />
+          <a href="https://secure-lake-16708.herokuapp.com/">Demo the app here</a><br />
           <a href="https://github.com/TCHayes/best-card">Project code on GitHub</a>
         </div>
       </div>
 
       <div class='project' id='project2'>
-        <img class='img-right' src="./images/screenshots/periodic-app-small.png" alt="Periodic Repetition App">
+        <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
+                              src="./images/screenshots/periodic-app-small.png"
+                              alt="Periodic Repetition App"></a>
         <div class='project-text'>
           <h2>Periodic Repetition</h2>
           <h4>Learn the periodic table of elements using a spaced repetition algorithm</h4>
@@ -89,7 +94,9 @@
       </div>
 
       <div class='project' id='project3'>
-        <img class='img-right' src="./images/screenshots/nyt-bday.png" alt="New York Times B-day App">
+        <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
+                                        src="./images/screenshots/nyt-bday.png"
+                                        alt="New York Times B-day App"></a>
         <div class='project-text'>
           <h2>Your New York Times Birthday</h2>
           <h4>See the front page from the day you were born</h4>
@@ -127,7 +134,7 @@
     <div id='contact' class='section-container'>
       <h2 class='section-title'>CONTACT</h2>
       <ul>
-        <li><b>E-mail</b> <a href="terrychayes@gmail.com">TerryCHayes@gmail.com</a></li>
+        <li><b>E-mail</b> <a href="mailto:terrychayes@gmail.com">TerryCHayes@gmail.com</a></li>
         <li><b>Github</b> <a href="https://github.com/tchayes">TCHayes</a></li>
         <li><b>LinkedIn</b> <a href="https://www.linkedin.com/in/terrychayes">Terry C Hayes</a></li>
       </ul>
