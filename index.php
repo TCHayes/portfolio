@@ -83,6 +83,9 @@
         <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
                             src="./images/screenshots/periodic-app-small.png"
                             alt="Periodic Repetition App"></a>
+        <!-- <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-wide'
+                            src="./images/screenshots/periodic-homepage-small.png"
+                            alt="Periodic Repetition Login Page"></a> -->
         <div class='project-text'>
           <p>
             A "Breaking Bad" themed spaced repetition learning app.
