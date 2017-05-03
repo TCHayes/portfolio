@@ -548,10 +548,6 @@ header {
   color: #773e00;
 }
 
-#header-name {
-  margin: 0;
-}
-
 header h3 {
   margin: 5px 0px;
 }
@@ -623,7 +619,7 @@ nav li a:hover {
   color: white;
 }
 
-#about-text {
+.about-text {
   margin: 0;
   padding: 20px 20px;
   max-width: 500px;
@@ -644,7 +640,8 @@ h2.section-title {
   margin-top: 0;
 }
 
-#header-name {
+.header-name {
+  margin: 0;
   display: none;
 }
 
@@ -659,7 +656,7 @@ h2.section-title {
 
 .project {
   padding-left: 20px;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 
 .project-text {
@@ -685,7 +682,7 @@ h2.section-title {
     display: none;
   }
 
-  #header-name {
+  .header-name {
     display: block;
   }
 
@@ -698,5 +695,9 @@ h2.section-title {
   .terry-photo {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .about-text {
+    font-size: 20px;
   }
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Fira+Sans+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,700|Fira+Sans:400,700" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Terry Hayes</title>
@@ -12,13 +12,13 @@
   <body>
 
     <header>
-      <h1 id='header-name'>Terry Hayes</h1>
+      <h1 class='header-name'>Terry Hayes</h1>
       <h2>Full Stack Web Developer</h2>
       <h3>South Norwalk, CT</h3>
     </header>
 
     <div class="name-container">
-      <a href='' class='nav-name'><b>Terry Hayes</b></a>
+      <a href='' class='nav-name'>Terry Hayes</a>
     </div>
 
     <nav>
@@ -31,7 +31,7 @@
 
     <div id='about' class='section-container'>
       <img class='img-right terry-photo' src="./images/family-photo.jpeg" alt="My fiancee and I at a wedding in Scotland">
-      <div id='about-text'>
+      <div class='about-text'>
         <p>Hi, I'm Terry. I'm a full stack web developer with a passion for personal finance,
           index investing, and thinking long-term.</p>
         <p>
@@ -51,11 +51,15 @@
 
     <div id='projects' class='section-container'>
       <h2 class='section-title'>PROJECTS</h2>
-      <div class='project' id='project1'>
-        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right' src="./images/screenshots/bestcard-cats-small.png"
-                                alt="BestCard Categories Page"></a>
-        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right' src="./images/screenshots/bestcard-result-small.png"
-                                alt="BestCard Result Page"></a>
+      <div class='project' class='project1'>
+        <div class="project-imgs-right">
+          <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
+                              src="./images/screenshots/bestcard-cats-small.png"
+                              alt="BestCard Categories Page"></a>
+          <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
+                            src="./images/screenshots/bestcard-result-small.png"
+                            alt="BestCard Result Page"></a>
+        </div>
         <div class='project-text'>
           <h2>BestCard</h2>
           <h4>Always know which of your credit cards offers the best rewards for each purchase</h4>
@@ -74,10 +78,12 @@
         </div>
       </div>
 
-      <div class='project' id='project2'>
-        <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
+      <div class='project' class='project2'>
+        <div class="project-imgs-left">
+          <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
                               src="./images/screenshots/periodic-app-small.png"
                               alt="Periodic Repetition App"></a>
+        </div>
         <div class='project-text'>
           <h2>Periodic Repetition</h2>
           <h4>Learn the periodic table of elements using a spaced repetition algorithm</h4>
@@ -93,10 +99,12 @@
         </div>
       </div>
 
-      <div class='project' id='project3'>
-        <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
+      <div class='project' class='project3'>
+        <div class="project-imgs-right">
+          <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
                                         src="./images/screenshots/nyt-bday.png"
                                         alt="New York Times B-day App"></a>
+        </div>
         <div class='project-text'>
           <h2>Your New York Times Birthday</h2>
           <h4>See the front page from the day you were born</h4>
@@ -114,7 +122,7 @@
         </div>
       </div>
 
-      <!-- <div class='project' id='project4'>
+      <!-- <div class='project' class='project4'>
         <div class='project-text'>
           <h2>Title Placeholder for a fourth project</h2>
           <h4>Subtitle</h4>
