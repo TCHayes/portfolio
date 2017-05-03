@@ -40,33 +40,28 @@
         </p>
         <p>
           In 2017, I'm turning 30, getting married, and leaving my career in public
-          relations to pursue software development professionally. By the end of
-          the year, my fiancée Emily, our two year old Boston Terrier Murray,
-          and I will likely be in a new city as we start our new lives
-          together, and I'm excited for all the new challenges ahead.
+          relations to pursue software development professionally.
         </p>
-        <!-- <p>I code predominantly with a MERN stack. I'm experienced with JavaScript (ES5, ES6, JSX), React (and Redux), jQuery,
-        Node (and Express), and mobile-first responsive development with HTML5
-        and CSS3.</p>
-        <p>I have experience learning new languages/frameworks quickly,
-        and I'm eager to continue doing so.</p> -->
+        <p>
+          By the end of the year, my fiancée Emily, our two year old Boston
+          Terrier Murray, and I will likely be in a new city as we start our
+          new lives together, and I'm excited for all the new challenges ahead.
+        </p>
       </div>
     </div>
 
     <div id='projects' class='section-container'>
       <h2 class='section-title'>PROJECTS</h2>
       <div class='project' class='project1'>
-        <div class="project-imgs-right">
-          <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
-                              src="./images/screenshots/bestcard-cats-small.png"
-                              alt="BestCard Categories Page"></a>
-          <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
-                            src="./images/screenshots/bestcard-result-small.png"
-                            alt="BestCard Result Page"></a>
-        </div>
+        <h2 class='project-title'>BestCard</h2>
+        <h4 class='project-subtitle'>Always know which of your credit cards offers the best rewards for each purchase</h4>
+        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
+                            src="./images/screenshots/bestcard-cats-small.png"
+                            alt="BestCard Categories Page"></a>
+        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
+                          src="./images/screenshots/bestcard-result-small.png"
+                          alt="BestCard Result Page"></a>
         <div class='project-text'>
-          <h2>BestCard</h2>
-          <h4>Always know which of your credit cards offers the best rewards for each purchase</h4>
           <p>
             If you've ever struggled to keep track of your rewards credit cards'
             rotating purchase categories, BestCard will assure you always use
@@ -83,14 +78,12 @@
       </div>
 
       <div class='project' class='project2'>
-        <div class="project-imgs-left">
-          <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
-                              src="./images/screenshots/periodic-app-small.png"
-                              alt="Periodic Repetition App"></a>
-        </div>
+        <h2 class='project-title'>Periodic Repetition</h2>
+        <h4 class='project-subtitle'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
+        <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
+                            src="./images/screenshots/periodic-app-small.png"
+                            alt="Periodic Repetition App"></a>
         <div class='project-text'>
-          <h2>Periodic Repetition</h2>
-          <h4>Learn the periodic table of elements using a spaced repetition algorithm</h4>
           <p>
             A "Breaking Bad" themed spaced repetition learning app.
           </p>
@@ -104,14 +97,12 @@
       </div>
 
       <div class='project' class='project3'>
-        <div class="project-imgs-right">
-          <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
-                                        src="./images/screenshots/nyt-bday.png"
-                                        alt="New York Times B-day App"></a>
-        </div>
+        <h2 class='project-title'>Your New York Times Birthday</h2>
+        <h4 class='project-subtitle'>See the front page from the day you were born</h4>
+        <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
+                                      src="./images/screenshots/nyt-bday.png"
+                                      alt="New York Times B-day App"></a>
         <div class='project-text'>
-          <h2>Your New York Times Birthday</h2>
-          <h4>See the front page from the day you were born</h4>
           <p>
             This app displays headlines and article briefs from the day you were
             born (or any other day you choose). There are also links to view the
@@ -128,7 +119,7 @@
 
       <!-- <div class='project' class='project4'>
         <div class='project-text'>
-          <h2>Title Placeholder for a fourth project</h2>
+          <h2 class='project-title'>Title Placeholder for a fourth project</h2>
           <h4>Subtitle</h4>
           <p>
             This is some placeholder text for the app's description. It will
