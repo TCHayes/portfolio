@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,700|Fira+Sans:400,700" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -30,10 +31,13 @@
     </nav>
 
     <div id='about' class='section-container'>
-      <img class='img-right terry-photo' src="./images/family-photo.jpeg" alt="My fiancee and I at a wedding in Scotland">
+      <img class='img-right terry-photo' src="./images/family-photo.jpeg"
+                          alt="Terry, Emily, and their Boston Terrier Murray">
       <div class='about-text'>
-        <p>Hi, I'm Terry. I'm a full stack web developer with a passion for personal finance,
-          index investing, and thinking long-term.</p>
+        <p>
+          Hi, I'm Terry. I'm a full stack web developer with a passion
+          for personal finance, index investing, and thinking long-term.
+        </p>
         <p>
           In 2017, I'm turning 30, getting married, and leaving my career in public
           relations to pursue software development professionally. By the end of
