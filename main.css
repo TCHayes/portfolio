@@ -499,6 +499,7 @@ body {
   color: #383838;
   margin: 0 auto;
   max-width: 970px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
 .name-container {
@@ -535,6 +536,7 @@ nav {
   width: 100%;
   max-width: 970px;
   height: 40px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
   background-color: #96151d;
   color: white;
 }
@@ -652,6 +654,8 @@ h2.section-title {
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #fafafa;
+  border-left: 1px solid #efece3;
+  border-right: 1px solid #efece3;
 }
 
 .project {
@@ -664,14 +668,16 @@ h2.section-title {
 }
 
 .img-right {
-  padding-left: 10px;
+  margin: 0 10px;
   max-width: 45%;
   float: right;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
 .terry-photo {
   min-width: 250px;
   max-height: 520px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
 }
 
 /*Settings for mobile*/
@@ -687,7 +693,12 @@ h2.section-title {
   .img-right {
     display: block;
     margin-bottom: 10px;
-    padding-left: 0;
+    margin: 10px 5px;
     max-width: 100%;
+  }
+
+  .terry-photo {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
