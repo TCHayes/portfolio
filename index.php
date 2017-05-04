@@ -31,7 +31,7 @@
     </nav>
 
     <div id='about' class='section-container'>
-      <img class='img-right terry-photo' src="./images/family-photo.jpeg"
+      <img class='terry-photo' src="./images/family-photo.jpeg"
                           alt="Terry, Emily, and their Boston Terrier Murray">
       <div class='about-text'>
         <p>
