@@ -59,7 +59,7 @@ a {
 .btn {
   display: inline-block;
   margin: 5px 0;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 5px;
   border: 1px solid #e2ded3;
   background-color: #efece3;
@@ -117,7 +117,7 @@ nav ul {
 }
 
 nav li a {
-  padding: 8px 10px;
+  padding: 8px 10px 7px 10px;
   color: white;
 }
 
@@ -161,6 +161,7 @@ header h2 {
   margin: 0;
   padding: 20px 20px 20px 40px;
   max-width: 475px;
+  line-height: 1.4;
 }
 
 .terry-photo {
@@ -184,9 +185,6 @@ header h2 {
   padding-bottom: 40px;
   width: 100%;
   background-color: #efece3;
-  /*background-image : linear-gradient(to bottom,
-                    #efece3,
-                    #fafafa 180%);*/
 }
 
 #projects {
@@ -199,11 +197,12 @@ header h2 {
 }
 
 .project {
-  border-top: 1px solid #efece3;
+  border-top: 1px solid #d6d3cb;
   margin-bottom: 150px;
 }
 
 .project-title {
+  margin-top: 60px;
   text-align: center;
   font-size: 24px;
   text-shadow: 1px 1px 1px #d1d1d1;
@@ -216,6 +215,7 @@ header h2 {
   width: 40%;
   min-width: 300px;
   font-weight: bold;
+  line-height: 1.4;
 }
 
 .project-text {
@@ -223,6 +223,7 @@ header h2 {
   padding-left: 40px;
   width: 40%;
   min-width: 300px;
+  line-height: 1.4;
 }
 
 .project-text-right {
@@ -230,6 +231,7 @@ header h2 {
   padding-right: 40px;
   width: 40%;
   min-width: 300px;
+  line-height: 1.4;
 }
 
 .project-subtitle-right {
@@ -240,6 +242,7 @@ header h2 {
   width: 40%;
   min-width: 300px;
   font-weight: bold;
+  line-height: 1.4;
 }
 
 .img-right {
@@ -271,6 +274,7 @@ header h2 {
 #contact ul {
   margin-bottom: 0;
   padding-bottom: 20px;
+  line-height: 1.4;
 }
 
 #contact li a {
