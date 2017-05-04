@@ -52,8 +52,23 @@ li {
   flex-direction: row;
 }
 
-li a {
+a {
   text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e2ded3;
+  background-color: #efece3;
+  color: #103359;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #e2ded3;
 }
 
 .name-container {
@@ -171,6 +186,9 @@ header h2 {
   padding-bottom: 40px;
   width: 100%;
   background-color: #efece3;
+  /*background-image : linear-gradient(to bottom,
+                    #efece3,
+                    #fafafa 180%);*/
 }
 
 #projects {
@@ -238,6 +256,14 @@ header h2 {
   max-width: 45%;
   float: left;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.text-link {
+  color: inherit;
+}
+
+.text-link:hover {
+  text-decoration: underline;
 }
 
 #contact {

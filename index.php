@@ -52,7 +52,7 @@
 
     <div id='projects' class='section-container'>
       <h2 class='section-title'>PROJECTS</h2>
-      <div class='project' class='project1'>
+      <div class='project project1'>
         <h2 class='project-title'>BestCard</h2>
         <h4 class='project-subtitle'>Always know which of your credit cards offers the best rewards for each purchase</h4>
         <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
@@ -72,12 +72,12 @@
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
             on the back end, with a MongoDB database.
           </p>
-          <a href="https://secure-lake-16708.herokuapp.com/">Demo the app here</a><br />
-          <a href="https://github.com/TCHayes/best-card">Project code on GitHub</a>
+          <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/">Demo the app here</a><br />
+          <a class='btn github-code' href="https://github.com/TCHayes/best-card">Project code on GitHub</a>
         </div>
       </div>
 
-      <div class='project' class='project2'>
+      <div class='project project2'>
         <h2 class='project-title'>Periodic Repetition</h2>
         <h4 class='project-subtitle-right'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
         <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-left'
@@ -94,12 +94,12 @@
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
             on the back end, with a MongoDB database.
           </p>
-          <a href="https://cryptic-shore-50871.herokuapp.com/">Demo the app here</a><br />
-          <a href="https://github.com/TCHayes/spaced-repetition">Project code on GitHub</a>
+          <a class='btn demo' href="https://cryptic-shore-50871.herokuapp.com/">Demo the app here</a><br />
+          <a class='btn github-code' href="https://github.com/TCHayes/spaced-repetition">Project code on GitHub</a>
         </div>
       </div>
 
-      <div class='project' class='project3'>
+      <div class='project project3'>
         <h2 class='project-title'>Your New York Times Birthday</h2>
         <h4 class='project-subtitle'>See the front page from the day you were born</h4>
         <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
@@ -113,28 +113,13 @@
           </p>
           <p>
             <b>Stack</b>: Built with React + Redux on the front end, and the
-            <a href="https://developer.nytimes.com/archive_api.json">NYT's Archive API</a>.
+            <a class='text-link' href="https://developer.nytimes.com/archive_api.json">NYT's Archive API</a>.
           </p>
-          <a href="https://damp-ocean-99717.herokuapp.com/">Demo the app here</a><br />
-          <a href="https://github.com/TCHayes/NYT-Bday-React">Project code on GitHub</a>
+          <a class='btn demo' href="https://damp-ocean-99717.herokuapp.com/">Demo the app here</a><br />
+          <a class='btn github-code' href="https://github.com/TCHayes/NYT-Bday-React">Project code on GitHub</a>
         </div>
       </div>
 
-      <!-- <div class='project' class='project4'>
-        <div class='project-text'>
-          <h2 class='project-title'>Title Placeholder for a fourth project</h2>
-          <h4>Subtitle</h4>
-          <p>
-            This is some placeholder text for the app's description. It will
-            have additional info and be longer than this.
-          </p>
-          <p>
-            <b>Stack</b>: Built with XYZ.
-          </p>
-          <a href="">Demo the app here</a><br />
-          <a href="">Project code on GitHub</a>
-        </div>
-      </div> -->
     </div>
 
     <div id='contact' class='section-container'>
