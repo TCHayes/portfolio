@@ -47,11 +47,20 @@ body {
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
+li {
+  list-style: none;
+  flex-direction: row;
+}
+
+li a {
+  text-decoration: none;
+}
+
 .name-container {
   position: fixed;
   top: 0;
   z-index: 9999;
-  width: 153px;
+  width: 162px;
   height: 40px;
   background-color: #96151d;
   color: white;
@@ -59,7 +68,7 @@ body {
 
 .nav-name {
   z-index: 9999;
-  margin-left: 10px;
+  padding: 0 10px;
   font-size: 30px;
   text-decoration: none;
 }
@@ -85,10 +94,29 @@ nav {
   color: white;
 }
 
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+nav li a {
+  padding: 8px 10px;
+  color: white;
+}
+
+nav li a:hover {
+  padding: 7px 10px;
+  background-color: white;
+  color: #96151d;
+}
+
 header {
-  padding-top: 60px;
+  margin-top: 40px;
+  padding-top: 20px;
   padding-bottom: 5px;
-  height: 150px;
+  height: 110px;
   text-align: center;
   background-color: #efece3;
   color: #773e00;
@@ -104,65 +132,9 @@ header h2 {
   font-weight: 400;
 }
 
-nav ul {
-  display: flex;
-  justify-content: center;
-  padding: 10px 0px;
-  margin: 0px;
-}
-
-nav li a {
-  color: white;
-}
-
-li {
-  list-style: none;
-  flex-direction: row;
-  padding: 0px 10px;
-  color: inherit;
-}
-
-li a {
-  text-decoration: none;
-}
-
-li a:visited {
-  color: inherit;
-}
-
-nav li a:hover {
-  padding: 7px 0px;
-  background-color: white;
-  color: #96151d;
-}
-
-#nav-name a:hover {
-  padding: 5px 0px;
-  background-color: white;
-  color: #96151d;
-}
-
-#contact li a {
-  color: #383838;
-}
-
-#contact li a:hover {
-  background-color: white;
-  color: #383838;
-}
-
-.section-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 40px;
-  padding-left: 40px;
-  color: #773e00;
-}
-
-#projects .section-title {
-  padding-bottom: 40px;
-  width: 100%;
-  background-color: #efece3;
+.header-name {
+  margin: 0;
+  display: none;
 }
 
 #about {
@@ -178,18 +150,25 @@ nav li a:hover {
   min-width: 400px;
 }
 
-#contact {
-  background-color: #efece3;
+.terry-photo {
+  margin-top: 20px;
+  min-width: 250px;
+  max-height: 520px;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
-#contact ul {
+.section-title {
+  margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  color: #773e00;
 }
 
-.header-name {
-  margin: 0;
-  display: none;
+#projects .section-title {
+  padding-bottom: 40px;
+  width: 100%;
+  background-color: #efece3;
 }
 
 #projects {
@@ -228,27 +207,6 @@ nav li a:hover {
   min-width: 300px;
 }
 
-.img-right {
-  margin: 5px 40px 5px 10px;
-  max-width: 45%;
-  float: right;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-}
-
-.img-left {
-  margin: 0 10px 0 40px;
-  max-width: 45%;
-  float: left;
-  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-}
-
-.terry-photo {
-  margin-top: 20px;
-  min-width: 250px;
-  max-height: 520px;
-  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.25);
-}
-
 .project-text-right {
   float: right;
   padding-right: 40px;
@@ -266,14 +224,61 @@ nav li a:hover {
   font-weight: bold;
 }
 
+.img-right {
+  margin: 5px 40px 5px 10px;
+  max-width: 45%;
+  float: right;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.img-left {
+  margin: 0 10px 0 40px;
+  max-width: 45%;
+  float: left;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+  background-color: #efece3;
+}
+
+#contact ul {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+#contact li a {
+  color: #383838;
+}
+
+#contact li a:hover {
+  background-color: white;
+  color: #383838;
+}
+
 /*Settings for mobile*/
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 600px) {
   .name-container {
     display: none;
   }
 
+  header {
+    height: 140px;
+  }
+
   .header-name {
     display: block;
+  }
+
+  #about {
+    padding-top: 20px;
+  }
+
+  .terry-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
   }
 
   .project-subtitle {
@@ -312,12 +317,5 @@ nav li a:hover {
     display: block;
     margin: 10px auto;
     max-width: 90%;
-  }
-
-  .terry-photo {
-    display: block;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
