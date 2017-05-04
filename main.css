@@ -148,7 +148,7 @@ nav li a:hover {
 
 #contact li a:hover {
   background-color: white;
-  color: black;
+  color: #383838;
 }
 
 .section-title {
@@ -209,6 +209,7 @@ nav li a:hover {
 .project-title {
   text-align: center;
   font-size: 24px;
+  text-shadow: 1px 1px 1px #d1d1d1;
 }
 
 .project-subtitle {
@@ -278,23 +279,25 @@ nav li a:hover {
   .project-subtitle {
     float: none;
     margin: 10px auto;
+    padding-left: 0;
   }
 
   .project-subtitle-right {
     float: none;
-    padding: 0 0 0 40px;
+    padding: 0;
     margin: 10px auto;
   }
 
   .project-text-right {
     float: none;
-    padding: 0 0 0 40px;
+    padding: 0;
     margin: 10px auto;
   }
 
   .project-text {
     float: none;
     margin: 10px auto;
+    padding-left: 0;
   }
 
   .img-right {
