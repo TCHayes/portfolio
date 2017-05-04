@@ -35,8 +35,8 @@
                           alt="Terry, Emily, and their Boston Terrier Murray">
       <div class='about-text'>
         <p>
-          Hi, I'm Terry. I'm a full stack web developer with a passion
-          for personal finance, index investing, and thinking long-term.
+          Hi, I'm Terry. I'm a full stack web developer with a love of
+          personal finance, index investing, and thinking long-term.
         </p>
         <p>
           In 2017, I'm turning 30, getting married, and leaving my career in public
@@ -79,14 +79,14 @@
 
       <div class='project' class='project2'>
         <h2 class='project-title'>Periodic Repetition</h2>
-        <h4 class='project-subtitle'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
-        <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-right'
+        <h4 class='project-subtitle-right'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
+        <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-left'
                             src="./images/screenshots/periodic-app-small.png"
                             alt="Periodic Repetition App"></a>
         <!-- <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-wide'
                             src="./images/screenshots/periodic-homepage-small.png"
                             alt="Periodic Repetition Login Page"></a> -->
-        <div class='project-text'>
+        <div class='project-text-right'>
           <p>
             A "Breaking Bad" themed spaced repetition learning app.
           </p>
