@@ -39,13 +39,16 @@
           personal finance, index investing, and thinking long-term.
         </p>
         <p>
-          In 2017, I'm turning 30, getting married, and leaving a career in public
-          relations to pursue software development professionally.
+          My background in public relations means I strive to develop tools that
+          put clients' needs first, and focus on how to help people leverage tech
+          to solve their problems. My passion is building solutions that help
+          people manage their finances.
         </p>
         <p>
-          By the end of the year, my fiancée Emily, our two year old Boston
-          Terrier Murray, and I will likely be in a new city as we start our
-          new lives together, and I'm excited for all the new challenges ahead.
+          I love the code clarity of piecing together small, discrete React
+          components, and am a stickler for consistency (tabs or spaces -
+          just be consistent!). When I'm not behind the computer, you'll
+          find me on a run or at the park with my fiancée Emily and our dog Murray.
         </p>
       </div>
     </div>
