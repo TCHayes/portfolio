@@ -2,7 +2,6 @@
 /*
 FONTS
 font-family: 'Fira Sans Condensed', sans-serif;
-font-family: 'Fira Sans', sans-serif;
 */
 
 /* Colors from Betterment site:
@@ -29,9 +28,6 @@ Charles Schwab
 #33b3e5 - light blue
 #005f83 - dark blue
 */
-
-
-/** { font-size: 20px !important; line-height: 1.4; }*/
 
 * {
   box-sizing: border-box;
@@ -63,7 +59,7 @@ a {
   border-radius: 5px;
   border: 1px solid #e2ded3;
   background-color: #efece3;
-  color: #103359;
+  color: #8d4900;
   text-decoration: none;
 }
 
