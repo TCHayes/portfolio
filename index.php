@@ -39,7 +39,7 @@
           personal finance, index investing, and thinking long-term.
         </p>
         <p>
-          In 2017, I'm turning 30, getting married, and leaving my career in public
+          In 2017, I'm turning 30, getting married, and leaving a career in public
           relations to pursue software development professionally.
         </p>
         <p>
@@ -55,7 +55,7 @@
       <div class='project project1'>
         <h2 class='project-title'>BestCard</h2>
         <h4 class='project-subtitle'>Always know which of your credit cards offers the best rewards for each purchase</h4>
-        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
+        <a href='https://secure-lake-16708.herokuapp.com/' target="_blank"><img class='img-right'
                             src="./images/screenshots/BestCard-Tour.gif"
                             alt="BestCard Tour"></a>
         <div class='project-text'>
@@ -69,20 +69,19 @@
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
             on the back end, with a MongoDB database.
           </p>
-          <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/">Demo the app here</a><br />
-          <a class='btn github-code' href="https://github.com/TCHayes/best-card">Project code on GitHub</a>
+          <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/"
+                            target="_blank">Demo the app here</a><br />
+          <a class='btn github-code' href="https://github.com/TCHayes/best-card"
+                            target="_blank">Project code on GitHub</a>
         </div>
       </div>
 
       <div class='project project2'>
         <h2 class='project-title'>Periodic Repetition</h2>
         <h4 class='project-subtitle-right'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
-        <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-left'
+        <a href="https://cryptic-shore-50871.herokuapp.com/" target="_blank"><img class='img-left'
                             src="./images/screenshots/periodic-app-small.png"
                             alt="Periodic Repetition App"></a>
-        <!-- <a href="https://cryptic-shore-50871.herokuapp.com/"><img class='img-wide'
-                            src="./images/screenshots/periodic-homepage-small.png"
-                            alt="Periodic Repetition Login Page"></a> -->
         <div class='project-text-right'>
           <p>
             A "Breaking Bad" themed spaced repetition learning app.
@@ -91,15 +90,17 @@
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
             on the back end, with a MongoDB database.
           </p>
-          <a class='btn demo' href="https://cryptic-shore-50871.herokuapp.com/">Demo the app here</a><br />
-          <a class='btn github-code' href="https://github.com/TCHayes/spaced-repetition">Project code on GitHub</a>
+          <a class='btn demo' href="https://cryptic-shore-50871.herokuapp.com/"
+                            target="_blank">Demo the app here</a><br />
+          <a class='btn github-code' href="https://github.com/TCHayes/spaced-repetition"
+                            target="_blank">Project code on GitHub</a>
         </div>
       </div>
 
       <div class='project project3'>
         <h2 class='project-title'>Your New York Times Birthday</h2>
         <h4 class='project-subtitle'>See the front page from the day you were born</h4>
-        <a href="https://damp-ocean-99717.herokuapp.com/"><img class='img-right'
+        <a href="https://damp-ocean-99717.herokuapp.com/" target="_blank"><img class='img-right'
                                       src="./images/screenshots/nyt-bday.png"
                                       alt="New York Times B-day App"></a>
         <div class='project-text'>
@@ -110,10 +111,13 @@
           </p>
           <p>
             <b>Stack</b>: Built with React + Redux on the front end, and the
-            <a class='text-link' href="https://developer.nytimes.com/archive_api.json">NYT's Archive API</a>.
+            <a class='text-link' href="https://developer.nytimes.com/archive_api.json"
+                              target="_blank">NYT's Archive API</a>.
           </p>
-          <a class='btn demo' href="https://damp-ocean-99717.herokuapp.com/">Demo the app here</a><br />
-          <a class='btn github-code' href="https://github.com/TCHayes/NYT-Bday-React">Project code on GitHub</a>
+          <a class='btn demo' href="https://damp-ocean-99717.herokuapp.com/"
+                            target="_blank">Demo the app here</a><br />
+          <a class='btn github-code' href="https://github.com/TCHayes/NYT-Bday-React"
+                                  target="_blank">Project code on GitHub</a>
         </div>
       </div>
 
@@ -123,8 +127,8 @@
       <h2 class='section-title'>CONTACT</h2>
       <ul>
         <li><b>E-mail</b> <a href="mailto:terrychayes@gmail.com">TerryCHayes@gmail.com</a></li>
-        <li><b>Github</b> <a href="https://github.com/tchayes">TCHayes</a></li>
-        <li><b>LinkedIn</b> <a href="https://www.linkedin.com/in/terrychayes">Terry C Hayes</a></li>
+        <li><b>Github</b> <a href="https://github.com/tchayes" target="_blank">TCHayes</a></li>
+        <li><b>LinkedIn</b> <a href="https://www.linkedin.com/in/terrychayes" target="_blank">Terry C Hayes</a></li>
       </ul>
     </div>
   </body>
