@@ -149,7 +149,8 @@ header h2 {
 
 #about {
   min-height: 560px;
-  background-color: #103359;
+  /*background-color: #103359;*/
+  background: linear-gradient(130deg, #1aa9e2 0%, #103359 100%, #303030 90%);
   color: white;
 }
 
@@ -162,7 +163,7 @@ header h2 {
 
 .terry-photo {
   float: right;
-  margin: 20px 40px 20px 10px;
+  margin: 20px 40px 20px 20px;
   max-width: 45%;
   min-width: 250px;
   max-height: 520px;
