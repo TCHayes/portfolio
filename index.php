@@ -56,11 +56,8 @@
         <h2 class='project-title'>BestCard</h2>
         <h4 class='project-subtitle'>Always know which of your credit cards offers the best rewards for each purchase</h4>
         <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
-                            src="./images/screenshots/bestcard-cats-small.png"
-                            alt="BestCard Categories Page"></a>
-        <a href='https://secure-lake-16708.herokuapp.com/'><img class='img-right'
-                          src="./images/screenshots/bestcard-result-small.png"
-                          alt="BestCard Result Page"></a>
+                            src="./images/screenshots/BestCard-Tour.gif"
+                            alt="BestCard Tour"></a>
         <div class='project-text'>
           <p>
             If you've ever struggled to keep track of your rewards credit cards'
