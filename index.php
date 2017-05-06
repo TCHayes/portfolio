@@ -64,7 +64,7 @@
         <div class='project-text'>
           <p>
             If you've ever struggled to keep track of your rewards credit cards'
-            rotating purchase categories, BestCard will assure you always use
+            rotating purchase categories, BestCard will ensure you always use
             the best card for each purchase; all you do is select the purchase
             category.
           </p>
@@ -88,6 +88,15 @@
         <div class='project-text-right'>
           <p>
             A "Breaking Bad" themed spaced repetition learning app.
+            <a class='text-link' href="https://en.wikipedia.org/wiki/Spaced_repetition">
+            Spaced repetition</a> is a learning technique that incorporates
+            increasing intervals of time between subsequent review of previously
+            learned material.
+          </p>
+          <p>Each time you answer a question correctly, your "score" for that
+            question increases; incorrect answers reduces that score. Questions
+            with lower scores are presented more frequently, so you spend more
+            time practicing the information you're still struggling with.
           </p>
           <p>
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
