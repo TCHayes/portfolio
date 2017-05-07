@@ -45,10 +45,11 @@
           people manage their finances.
         </p>
         <p>
-          I love the code clarity of piecing together small, discrete React
-          components, and am a stickler for consistency (tabs or spaces -
-          just be consistent!). When I'm not behind the computer, you'll
-          find me on a run or at the park with my fiancée Emily and our dog Murray.
+          I love the code clarity that comes from piecing together small,
+          discrete React components, and I'm a stickler for consistency
+          (tabs or spaces - just stick with one!). When I'm not behind the
+          computer, you'll find me on a run or at the park with my fiancée
+          Emily and our dog Murray.
         </p>
       </div>
     </div>
@@ -94,7 +95,7 @@
             learned material.
           </p>
           <p>Each time you answer a question correctly, your "score" for that
-            question increases; incorrect answers reduces that score. Questions
+            question increases; incorrect answers reduce that score. Questions
             with lower scores are presented more frequently, so you spend more
             time practicing the information you're still struggling with.
           </p>
