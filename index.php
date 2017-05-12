@@ -75,7 +75,7 @@
           </p>
           <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/"
                             target="_blank">Demo the app here</a><br />
-          <a class='btn github-code' href="https://github.com/TCHayes/best-card"
+          <a class='btn github-code' href="https://github.com/TCHayes/best-card-v2"
                             target="_blank">Project code on GitHub</a>
         </div>
       </div>
@@ -139,9 +139,9 @@
     <div id='contact' class='section-container'>
       <h2 class='section-title'>CONTACT</h2>
       <ul>
-        <li><b>E-mail</b> <a href="mailto:terrychayes@gmail.com">TerryCHayes@gmail.com</a></li>
-        <li><b>Github</b> <a href="https://github.com/tchayes" target="_blank">TCHayes</a></li>
-        <li><b>LinkedIn</b> <a href="https://www.linkedin.com/in/terrychayes" target="_blank">Terry C Hayes</a></li>
+        <li><b>E-mail</b> <a class='text-link' href="mailto:terrychayes@gmail.com">TerryCHayes@gmail.com</a></li>
+        <li><b>Github</b> <a class='text-link' href="https://github.com/tchayes" target="_blank">TCHayes</a></li>
+        <li><b>LinkedIn</b> <a class='text-link' href="https://www.linkedin.com/in/terrychayes" target="_blank">Terry C Hayes</a></li>
       </ul>
     </div>
   </body>
