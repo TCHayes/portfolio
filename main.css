@@ -56,15 +56,16 @@ a {
   display: inline-block;
   margin: 5px 0;
   padding: 10px 20px;
-  border-radius: 5px;
-  border: 1px solid #e2ded3;
-  background-color: #efece3;
-  color: #8d4900;
+  text-shadow: 0 -1px 1px black;
+  border: 1px solid #5e0d13;
+  color: white;
+  background-image: linear-gradient(to bottom,#96151d,#7d1119);
+  background-color: #7d1119;
   text-decoration: none;
 }
 
 .btn:hover {
-  background-color: #e2ded3;
+  background-image: linear-gradient(to bottom,#7d1119,#96151d);
 }
 
 .name-container {
