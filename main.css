@@ -56,7 +56,6 @@ a {
   display: inline-block;
   margin: 5px 0;
   padding: 10px 20px;
-  text-shadow: 0 -1px 1px black;
   border: 1px solid #5e0d13;
   color: white;
   background-image: linear-gradient(to bottom,#96151d,#7d1119);
@@ -203,7 +202,6 @@ header h2 {
   margin-top: 60px;
   text-align: center;
   font-size: 24px;
-  text-shadow: 1px 1px 1px #d1d1d1;
 }
 
 .project-subtitle {
