@@ -60,18 +60,21 @@
         <h2 class='project-title'>BestCard</h2>
         <h4 class='project-subtitle'>Always know which of your credit cards offers the best rewards for each purchase</h4>
         <a href='https://secure-lake-16708.herokuapp.com/' target="_blank"><img class='img-right'
-                            src="./images/screenshots/BestCard-Tour.gif"
-                            alt="BestCard Tour"></a>
+                            src="./images/screenshots/BestCardDemo.gif"
+                            alt="A tour through the most common BestCard screens"></a>
         <div class='project-text'>
           <p>
             If you've ever struggled to keep track of your rewards credit cards'
             rotating purchase categories, BestCard will ensure you always use
-            the best card for each purchase; all you do is select the purchase
-            category.
+            the best card for each purchase. Just let us know which cards you have,
+            and next time you're going to make a purchase check the app first to
+            see which card will give you the best reward for that category.
           </p>
           <p>
             <b>Stack</b>: Built with React + Redux on the front end, Node + Express
-            on the back end, with a MongoDB database.
+            on the back end, with a MongoDB database. I recently added secure
+            password reset functionality using NodeMailer to email users unique links to
+            update their passwords.
           </p>
           <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/"
                             target="_blank">Demo the app here</a><br />
@@ -84,7 +87,7 @@
         <h2 class='project-title'>Periodic Repetition</h2>
         <h4 class='project-subtitle-right'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
         <a href="https://cryptic-shore-50871.herokuapp.com/" target="_blank"><img class='img-left'
-                            src="./images/screenshots/periodic-app-small.png"
+                            src="./images/screenshots/periodic-app.png"
                             alt="Periodic Repetition App"></a>
         <div class='project-text-right'>
           <p>
