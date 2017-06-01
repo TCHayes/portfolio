@@ -37,13 +37,16 @@ Charles Schwab
 
 body {
   background: #fafafa;
-  color: #383838;
-  margin: 0 auto;
 }
 
 .page-container {
-  background: #fafafa;
+  /*background: #fafafa;
   color: #383838;
+  margin: 0 auto;
+  max-width: 970px;*/
+}
+
+.content {
   margin: 0 auto;
   max-width: 970px;
 }
@@ -104,7 +107,7 @@ nav {
   top: 0;
   z-index: 9998;
   width: 100%;
-  max-width: 970px;
+  /*max-width: 970px;*/
   height: 40px;
   background-color: #96151d;
   color: white;
@@ -183,23 +186,32 @@ header h2 {
   color: #773e00;
 }
 
-#projects .section-title {
+.projects-section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 80px;
   width: 100%;
   background-color: #efece3;
+  color: #773e00;
 }
 
 #projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   background-color: #fafafa;
-  border-left: 1px solid #efece3;
-  border-right: 1px solid #efece3;
+  /*border-left: 1px solid #efece3;
+  border-right: 1px solid #efece3;*/
 }
 
 .project {
   border-top: 1px solid #d6d3cb;
+  margin-bottom: 150px;
+}
+
+.project1 {
   margin-bottom: 150px;
 }
 
