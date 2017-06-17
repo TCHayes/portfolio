@@ -11,7 +11,7 @@
     <title>Terry Hayes</title>
   </head>
   <body>
-    <div class="page-container">
+    <div class='page-container'>
       <nav>
         <ul>
           <li><a href='#about'>ABOUT</a></li>
@@ -26,31 +26,30 @@
         <h3>South Norwalk, CT</h3>
       </header>
 
-      <div class="name-container">
+      <div class='name-container'>
         <a href='' class='nav-name'>Terry Hayes</a>
       </div>
 
       <div id='about' class='section-container'>
-        <div class="content">
-          <img class='terry-photo' src="./images/family-photo.jpeg"
-                              alt="Terry, Emily, and their Boston Terrier Murray">
+        <div class='content'>
+          <img class='terry-photo' src='./images/family-photo.jpeg'
+                              alt='Terry, Emily, and their Boston Terrier Murray'>
           <div class='about-text'>
             <p>
               Hi, I'm Terry. I'm a full stack web developer with a love of
-              personal finance, index investing, and thinking long-term.
+              personal finance, Boston Terriers, and intentional living.
             </p>
             <p>
               My background in public relations means I strive to develop tools that
-              put clients' needs first, and focus on how to help people leverage tech
+              put clients' needs first, and I focus on how to help people leverage tech
               to solve their problems. My passion is building solutions that help
-              people manage their finances.
+              people manage their finances and simplify their lives.
             </p>
             <p>
               I love the code clarity that comes from piecing together small,
-              discrete React components, and I'm a stickler for consistency
-              (tabs or spaces - just stick with one!). When I'm not behind the
-              computer, you'll find me on a run or at the park with my fiancée
-              Emily and our dog Murray.
+              discrete React components, and I'm a stickler for consistent code.
+              When I'm not coding, you'll find me on a run or at the park with
+              my fiancée Emily and our dog Murray.
             </p>
           </div>
         </div>
@@ -61,7 +60,7 @@
           <h2 class='content'>PROJECTS</h2>
         </div>
 
-        <div class="content">
+        <div class='content'>
           <div class='project project1'>
             <h2 class='project-title'>BestCard</h2>
             <h4 class='project-subtitle'>Always know which of your credit cards offers the best rewards for each purchase</h4>
@@ -90,8 +89,8 @@
           </div>
         </div>
 
-        <div class="content">
-          <div class='project project2'>
+        <div class='content'>
+          <div class='project'>
             <h2 class='project-title'>Periodic Repetition</h2>
             <h4 class='project-subtitle-right'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
             <a href="https://cryptic-shore-50871.herokuapp.com/" target="_blank"><img class='img-left'
@@ -122,8 +121,8 @@
           </div>
         </div>
 
-        <div class="content">
-          <div class='project project3'>
+        <div class='content'>
+          <div class='project'>
             <h2 class='project-title'>Your New York Times Birthday</h2>
             <h4 class='project-subtitle'>See the front page from the day you were born</h4>
             <a href="https://damp-ocean-99717.herokuapp.com/" target="_blank"><img class='img-right'
@@ -151,7 +150,7 @@
       </div>
 
       <div id='contact' class='section-container'>
-        <div class="content">
+        <div class='content'>
           <h2 class='section-title'>CONTACT</h2>
           <ul>
             <li><b>E-mail</b> <a class='text-link' href="mailto:terrychayes@gmail.com">TerryCHayes@gmail.com</a></li>
