@@ -60,6 +60,7 @@
         <div class="projects-section-title">
           <h2 class='content'>PROJECTS</h2>
         </div>
+
         <div class="content">
           <div class='project project1'>
             <h2 class='project-title'>BestCard</h2>

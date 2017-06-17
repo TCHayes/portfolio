@@ -46,6 +46,10 @@ body {
   max-width: 970px;*/
 }
 
+#projects div.content {
+  padding-bottom: 100px;
+}
+
 .content {
   margin: 0 auto;
   max-width: 970px;
@@ -187,6 +191,7 @@ header h2 {
 }
 
 .projects-section-title {
+  border-bottom: 1px solid #d6d3cb;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 40px;
@@ -202,17 +207,14 @@ header h2 {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #fafafa;
-  /*border-left: 1px solid #efece3;
-  border-right: 1px solid #efece3;*/
 }
 
 .project {
   border-top: 1px solid #d6d3cb;
-  margin-bottom: 150px;
 }
 
 .project1 {
-  margin-bottom: 150px;
+  border-top: none;
 }
 
 .project-title {
@@ -281,6 +283,7 @@ header h2 {
 }
 
 #contact {
+  border-top: 1px solid #d6d3cb;
   background-color: #efece3;
 }
 
@@ -329,24 +332,30 @@ header h2 {
     float: none;
     margin: 10px auto;
     padding-left: 0;
+    width: 80%;
+    text-align: center;
   }
 
   .project-subtitle-right {
     float: none;
     padding: 0;
     margin: 10px auto;
+    width: 80%;
+    text-align: center;
   }
 
   .project-text-right {
     float: none;
     padding: 0;
     margin: 10px auto;
+    width: 80%;
   }
 
   .project-text {
     float: none;
-    margin: 10px auto;
     padding-left: 0;
+    margin: 10px auto;
+    width: 80%;
   }
 
   .img-right {
