@@ -46,10 +46,6 @@ body {
   max-width: 970px;*/
 }
 
-#projects div.content {
-  padding-bottom: 100px;
-}
-
 .content {
   margin: 0 auto;
   max-width: 970px;
@@ -209,6 +205,14 @@ header h2 {
   background-color: #fafafa;
 }
 
+#projects div.content {
+  padding-bottom: 100px;
+}
+
+div.project {
+  color: #383838;
+}
+
 .project {
   border-top: 1px solid #d6d3cb;
 }
@@ -227,7 +231,7 @@ header h2 {
   float: left;
   margin: 0 auto;
   padding-left: 40px;
-  width: 40%;
+  width: 45%;
   min-width: 300px;
   font-weight: bold;
   line-height: 1.4;
@@ -236,7 +240,7 @@ header h2 {
 .project-text {
   float: left;
   padding-left: 40px;
-  width: 40%;
+  width: 45%;
   min-width: 300px;
   line-height: 1.4;
 }
@@ -244,7 +248,7 @@ header h2 {
 .project-text-right {
   float: right;
   padding-right: 40px;
-  width: 40%;
+  width: 45%;
   min-width: 300px;
   line-height: 1.4;
 }
@@ -254,7 +258,7 @@ header h2 {
   clear: right;
   margin: 0 auto;
   padding-right: 40px;
-  width: 40%;
+  width: 45%;
   min-width: 300px;
   font-weight: bold;
   line-height: 1.4;
