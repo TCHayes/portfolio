@@ -81,10 +81,12 @@
                 password reset functionality using NodeMailer to email users unique links to
                 update their passwords.
               </p>
-              <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/"
-                                target="_blank">Demo the app here</a><br />
-              <a class='btn github-code' href="https://github.com/TCHayes/best-card-v2"
-                                target="_blank">Project code on GitHub</a>
+              <div class="button-div">
+                <a class='btn demo' href="https://secure-lake-16708.herokuapp.com/"
+                                  target="_blank">Demo the app</a><br />
+                <a class='btn github-code' href="https://github.com/TCHayes/best-card-v2"
+                                  target="_blank">Code on GitHub</a>
+              </div>
             </div>
           </div>
         </div>
@@ -113,10 +115,12 @@
                 <b>Stack</b>: Built with React + Redux on the front end, Node + Express
                 on the back end, with a MongoDB database.
               </p>
-              <a class='btn demo' href="https://cryptic-shore-50871.herokuapp.com/"
-                                target="_blank">Demo the app here</a><br />
-              <a class='btn github-code' href="https://github.com/TCHayes/spaced-repetition"
-                                target="_blank">Project code on GitHub</a>
+              <div class="button-div">
+                <a class='btn demo' href="https://cryptic-shore-50871.herokuapp.com/"
+                                  target="_blank">Demo the app</a><br />
+                <a class='btn github-code' href="https://github.com/TCHayes/spaced-repetition"
+                                  target="_blank">Code on GitHub</a>
+              </div>
             </div>
           </div>
         </div>
@@ -139,10 +143,12 @@
                 <a class='text-link' href="https://developer.nytimes.com/archive_api.json"
                                   target="_blank">NYT's Archive API</a>.
               </p>
-              <a class='btn demo' href="https://damp-ocean-99717.herokuapp.com/"
-                                target="_blank">Demo the app here</a><br />
-              <a class='btn github-code' href="https://github.com/TCHayes/NYT-Bday-React"
-                                      target="_blank">Project code on GitHub</a>
+              <div class="button-div">
+                <a class='btn demo' href="https://damp-ocean-99717.herokuapp.com/"
+                                  target="_blank">Demo the app</a><br />
+                <a class='btn github-code' href="https://github.com/TCHayes/NYT-Bday-React"
+                                        target="_blank">Code on GitHub</a>
+              </div>
             </div>
           </div>
         </div>

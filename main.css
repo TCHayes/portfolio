@@ -60,8 +60,13 @@ a {
   text-decoration: none;
 }
 
+.button-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .btn {
-  display: inline-block;
   margin: 5px 0;
   padding: 10px 20px;
   border: 1px solid #5e0d13;
