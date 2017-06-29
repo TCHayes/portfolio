@@ -93,6 +93,38 @@
 
         <div class='content'>
           <div class='project'>
+            <h2 class='project-title'>Stop, Drop, & Selfie</h2>
+            <h4 class='project-subtitle'>A real-time native iOS chat app for sparking
+              conversations amongst friends far and near.</h4>
+            <a href="https://expo.io/@tchayes/Stop-Drop-Selfie" target="_blank"><img class='img-right'
+                                          src="./images/screenshots/nyt-bday.png"
+                                          alt="Stop, Drop, & Selfie App"></a>
+            <div class='project-text'>
+              <p>
+                Despite the silly sounding name, this app involved a number of
+                significant technical challenges. I developed this app with three of
+                my Thinkful classmates. It's a native iOS app built with
+                React Native, Expo.io, and notably Socket.IO. Getting sockets to
+                work with numerous chat rooms was one of the more difficult challenges
+                we faced, as well as smaller native-specific issues we had to
+                learn and implement on the spot (e.g. handling push notifications,
+                getting access to the device's camera, etc).
+          </p>
+              <p>
+                <b>Stack</b>: React Native, Expo.io, Socket.IO.
+              </p>
+              <div class="button-div">
+                <a class='btn demo' href="https://expo.io/@tchayes/Stop-Drop-Selfie"
+                                  target="_blank">Demo the app</a><br />
+                <a class='btn github-code' href="https://github.com/simgill13/SDS-ios-app"
+                                        target="_blank">Code on GitHub</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='content'>
+          <div class='project'>
             <h2 class='project-title'>Periodic Repetition</h2>
             <h4 class='project-subtitle-right'>Learn the periodic table of elements using a spaced repetition algorithm</h4>
             <a href="https://cryptic-shore-50871.herokuapp.com/" target="_blank"><img class='img-left'
@@ -125,7 +157,7 @@
           </div>
         </div>
 
-        <div class='content'>
+        <!-- <div class='content'>
           <div class='project'>
             <h2 class='project-title'>Your New York Times Birthday</h2>
             <h4 class='project-subtitle'>See the front page from the day you were born</h4>
@@ -151,7 +183,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
 
