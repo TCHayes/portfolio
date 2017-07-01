@@ -267,16 +267,16 @@ div.project {
 
 .iphone-container {
   margin: 5px 40px 5px 10px;
-  border: 8px solid #364D63;
+  border: 3px solid #d9dbdc;
   border-radius: 35px;
-  /*width: 287px;*/
+  width: 294px;
   float: right;
 }
 
 .iphone-speaker {
-  height: 3px;
+  height: 1px;
   width: 50px;
-  border: 2px solid #364D63;
+  border: 1px solid #d9dbdc;
   border-radius: 35%;
   margin: 25px auto;
 }
@@ -284,21 +284,20 @@ div.project {
 .iphone-screen {
   height: 503px;
   width: 283px;
-  border: 1px solid #364D63;
+  border: 1px solid #d9dbdc;
   margin: 0 auto 0 auto;
 }
 
 .iphone-button {
   height: 40px;
   width: 40px;
-  border: 3px solid #364D63;
+  border: 1px solid #d9dbdc;
   border-radius: 100%;
   margin: 5px auto;
 }
 
-
 .img-right {
-  width: 100%;
+  height: 100%;
 }
 
 /*.img-right {
