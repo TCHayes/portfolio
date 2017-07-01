@@ -261,12 +261,54 @@ div.project {
   color: #364D63;
 }
 
+
+
+
+
+.iphone-container {
+  margin: 5px 40px 5px 10px;
+  border: 8px solid #364D63;
+  border-radius: 35px;
+  /*width: 287px;*/
+  float: right;
+}
+
+.iphone-speaker {
+  height: 3px;
+  width: 50px;
+  border: 2px solid #364D63;
+  border-radius: 35%;
+  margin: 25px auto;
+}
+
+.iphone-screen {
+  height: 503px;
+  width: 283px;
+  border: 1px solid #364D63;
+  margin: 0 auto 0 auto;
+}
+
+.iphone-button {
+  height: 40px;
+  width: 40px;
+  border: 3px solid #364D63;
+  border-radius: 100%;
+  margin: 5px auto;
+}
+
+
 .img-right {
+  width: 100%;
+}
+
+/*.img-right {
   margin: 5px 40px 5px 10px;
   max-width: 45%;
   float: right;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-}
+  border: 8px solid #e8e8e8;
+  border-radius: 4px;
+}*/
 
 .img-left {
   margin: 0 10px 0 40px;
