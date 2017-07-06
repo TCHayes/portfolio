@@ -289,7 +289,57 @@ div.project {
   width: 100%;
 }
 
-.img-right {
+.browser-container {
+  margin: 5px 40px 5px 10px;
+  max-width: 45%;
+  border: 4px solid #d9dbdc;
+  border-radius: 3px;
+  float: right;
+}
+
+.browser-search {
+  background-color: #d9dbdc;
+  height: 15px;
+}
+
+.browser-screen {
+  width: 100%;
+  height: 100%;
+}
+
+.red-circle {
+  display: inline-block;
+  background-color: #fc625c;
+  border-radius: 100%;
+  height: 9px;
+  width: 9px;
+  margin: 2px;
+}
+
+.yellow-circle {
+  display: inline-block;
+  background-color: #fdbe41;
+  border-radius: 100%;
+  height: 9px;
+  width: 9px;
+  margin: 2px;
+}
+
+.green-circle {
+  display: inline-block;
+  background-color: #35cd4b;
+  border-radius: 100%;
+  height: 9px;
+  width: 9px;
+  margin: 2px;
+}
+
+.img-browser {
+  height: 100%;
+  width: 100%;
+}
+
+/*.img-right {
   margin: 5px 40px 5px 10px;
   max-width: 45%;
   float: right;
@@ -301,7 +351,7 @@ div.project {
   max-width: 45%;
   float: left;
   box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
-}
+}*/
 
 .text-link {
   color: inherit;
@@ -416,7 +466,14 @@ div.project {
     max-width: 90%;
   }
 
-  .img-right {
+  .browser-container {
+    float: none;
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+  }
+
+  /*.img-right {
     float: none;
     display: block;
     margin: 10px auto;
@@ -428,5 +485,5 @@ div.project {
     display: block;
     margin: 10px auto;
     max-width: 90%;
-  }
+  }*/
 }
